@@ -12,7 +12,6 @@ const WeatherDisplay = ({ weatherData }) => {
       <img src={iconUrl} alt="Weather Icon" />
       <p>Temperature: {weatherData.main.temp}°C</p>
       <p>Weather: {weatherData.weather[0].main}</p>
-      {/* Add more weather details as needed */}
     </div>
   );
 };
